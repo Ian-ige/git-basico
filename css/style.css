@@ -3,25 +3,56 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Consolas, monaco, monospace;
+    text-decoration: none;
 }
 
 #page{
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---------------*/
+#content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid;
+    flex-grow: 35;
+}
+.img1-text{
+    display: flex;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    width: 100px;
+    height:100px;
+}
+/*---------------*/
+#side-bar{
+    flex-grow: 1;
+    position: fixed;
+}
+.logo{
+    vertical-align: bottom;
+}
+.git-logo{
+    width: 80px;
+    height: 35px;
+    object-fit: cover;
+    
+    vertical-align: bottom;
+}
+.menu-title{
+    font-size: larger;
+    font-weight: 700;
+    vertical-align: bottom;
     
 }
-#content{
-    border: 2px solid;
-    width: 90%;
+.item-content{
+    text-decoration: none;
+    color: black;
 }
-#side-bar{
-    width: 10%;
-}
-
-.git-logo{
-    width: 65px;
-    height: 30px;
-    border: 2px solid;
-    object-fit: cover;
-}
+/*---------------*/
