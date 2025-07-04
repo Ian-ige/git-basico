@@ -37,12 +37,13 @@
 }
 .logo{
     vertical-align: bottom;
+    margin-bottom: 2vh;
+    margin-top: 1vh;
 }
 .git-logo{
     width: 80px;
     height: 35px;
     object-fit: cover;
-    
     vertical-align: bottom;
 }
 .menu-title{
