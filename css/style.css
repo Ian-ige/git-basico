@@ -17,6 +17,7 @@
 /*---------------*/
 #content{
     display: flex;
+    padding-left: 25%;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
@@ -29,6 +30,10 @@
     margin-bottom: 5vh;
     width: 100px;
     height:100px;
+}
+.oqueegit ul{
+ margin-top: 2vh;
+ margin-bottom: 2vh;
 }
 /*---------------*/
 #side-bar{
