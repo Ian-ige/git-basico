@@ -20,8 +20,8 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    border: 2px solid;
     flex-grow: 35;
+    background-color: wheat;
 }
 .img1-text{
     display: flex;
@@ -32,8 +32,14 @@
 }
 /*---------------*/
 #side-bar{
-    flex-grow: 1;
+    padding-right: 1%;
+    padding-left: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100vh;
     position: fixed;
+    background-color: white;
 }
 .logo{
     vertical-align: bottom;
@@ -55,5 +61,14 @@
 .item-content{
     text-decoration: none;
     color: black;
+}
+.side-bar-item{
+    margin-bottom: 2vh;
+    text-align: center;
+
+}
+.side-bar-item:hover{
+    background-color: wheat;
+    border-radius: 5px;
 }
 /*---------------*/
